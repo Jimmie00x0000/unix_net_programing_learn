@@ -1,0 +1,3 @@
+#attention:  the server programe will choose 0.0.0.0 as its IP address, 13 as its port.
+#note:   the server will be in time_wait status for one minute after connect with client
+#you can use netstat to see it

@@ -1,0 +1,13 @@
+#attention: the compiler will search for the static lib file in /lib and /usr/lib
+#gcc can't link static lib which is compiled from C file
+
+#if the result of "file *.out" show : LSB Relocatable, it means it is only a object file
+#-- maybe it need to be linked to a static lib or shared lib(*.so),
+
+#if you want to compile C++ FILE, please use g++ compiler
+#if you find server launch failed, with prompt "Permission denied.",maybe u can try sudo su
+
+#if you want to pause a process, CTRL+Z, then use ps -s CONT pid  to continue a process
+#if you want a LSB file to run in the background, you can use "nohup name &"
+
+#if you want a background programme to run foreground, you can use fg[job]
